@@ -5,7 +5,7 @@ Data Analysis course projects from Udacity' [Data Analyst Nanodegree Program](ht
 
  CONTENTS <br />
 
-[Project 1:](https://github.com/DenisDPR/DAND/edit/master/Bay_Area_Bike_Share_Analysis.html) Analyze Bay Area Bike Share <br />
+[Project 1:](https://github.com/DenisDPR/DAND/edit/master/Bay_Area_Bike_Share_Analysis.ipynb) Analyze Bay Area Bike Share <br />
 
 Project 2:Project: Compute Statistics from Card Draws <br />
 
