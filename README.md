@@ -3,7 +3,7 @@ Data Analysis course projects from Udacity' Data Analyst Nanodegree Program
 Discover Insights from Data
 
 Project 1: Intro Project: Analyze Bay Area Bike Share Data 
-[Bay_Area_Bike_Share_Analysis.html](file:///C:/Users/Denis%20Pastory%20Rubang/AppData/Local/Temp/Temp1_Bay_Area_Bike_Share_Analysis.htm.zip/Bay_Area_Bike_Share_Analysis.htm) <br />
+[Bay_Area_Bike_Share_Analysis.html](https://github.com/DenisDPR/DAND/edit/master/Bay_Area_Bike_Share_Analysis.html) <br />
 
 Project 2:Project: Compute Statistics from Card Draws <br />
 
