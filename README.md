@@ -30,4 +30,4 @@ Project 8:Make an Effective Visualization <br />
  
  [EXERCISE 2:](https://github.com/DenisDPR/DAND/blob/master/MIKAMI_NCC.ipynb) Plots of Temperature Using Bokeh <br />
  
- [EXERCISE 3:](https://github.com/DenisDPR/DAND/blob/master/index_cool.html) Google Chart Line Plot  <br />
+ [EXERCISE 3:](https://github.com/DenisDPR/DAND/blob/master/index_cool.html) Google Chart Line Plot [Using this :](https://github.com/DenisDPR/DAND/blob/master/ForCool.php) to connect to [Data Base :](https://github.com/DenisDPR/DAND/blob/master/ConnDB.php) <br />
