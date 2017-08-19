@@ -4,6 +4,10 @@ Data Analysis course projects from Udacity' [Data Analyst Nanodegree Program](ht
 <br />
 
  CONTENTS <br />
+ 
+ <br />
+
+ 1. DAND PROGRAM <br />
 
 [Project 1:](https://github.com/DenisDPR/DAND/blob/master/Bay_Area_Bike_Share_Analysis.ipynb) Analyze Bay Area Bike Share <br />
 
@@ -18,3 +22,8 @@ Project 6:Test a Perceptual Phenomenon  <br />
 Project 7:Identify Fraud from Enron Email  <br />
 
 Project 8:Make an Effective Visualization <br />
+<br />
+
+ 2. SMART AGRICULTURE <br />
+ 
+ [EXERCISE 1:](https://github.com/DenisDPR/DAND/blob/master/Netatmo_sensor_validation.ipynb) Netatmo_sensor_validation <br />
