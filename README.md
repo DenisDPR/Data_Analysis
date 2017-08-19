@@ -27,3 +27,7 @@ Project 8:Make an Effective Visualization <br />
  2. SMART AGRICULTURE <br />
  
  [EXERCISE 1:](https://github.com/DenisDPR/DAND/blob/master/Netatmo_sensor_validation.ipynb) Netatmo_sensor_validation <br />
+ 
+ [EXERCISE 2:](https://github.com/DenisDPR/DAND/blob/master/MIKAMI_NCC.ipynb) Plots of Temperature Using Bokeh <br />
+ 
+ [EXERCISE 3:](https://github.com/DenisDPR/DAND/blob/master/index_cool.html) Google Chart Line Plot  <br />
