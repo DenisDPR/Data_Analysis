@@ -9,7 +9,7 @@ Data Analysis course projects from Udacity' [Data Analyst Nanodegree Program](ht
 
  1. DAND PROGRAM <br />
 
-[Project 1:](https://github.com/DenisDPR/DAND/blob/master/Intro to Data Analysis/Bay_Area_Bike_Share_Analysis.ipynb) Analyze Bay Area Bike Share <br />
+[Project 1:](https://github.com/DenisDPR/DAND/blob/master/Intro%20to%20Data%20Analysis/Bay_Area_Bike_Share_Analysis.ipynb) Analyze Bay Area Bike Share <br />
 
 [Project 2:](https://github.com/DenisDPR/DAND/blob/master/Titanic_Data_Analysis%5BConflict%5D.ipynb) Investigate a Dataset <br />
 
