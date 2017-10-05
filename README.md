@@ -13,7 +13,7 @@ Data Analysis course projects from Udacity' [Data Analyst Nanodegree Program](ht
 
 [Project 2:](https://github.com/DenisDPR/DAND/blob/master/Intro%20to%20Data%20Analysis/Titanic_Data_Analysis%5BConflict%5D.ipynb) Investigate a Dataset <br />
 
-[Project 4:](https://github.com/DenisDPR/DAND/blob/master/Intro%20to%20Data%20Analysis/Titanic_Data_Analysis%5BConflict%5D.ipynb) Data Wrangling  <br />
+[Project 4:](https://github.com/DenisDPR/Data-Analyst-Nano-Degree/tree/master/Project%202/OpenStreetMapData) Data Wrangling  <br />
 
 Project 5:Explore and Summarize Data <br />
 
