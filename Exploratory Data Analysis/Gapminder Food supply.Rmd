@@ -1,0 +1,73 @@
+---
+title: "Food_Production"
+author: "Denis Pastory"
+date: "10/28/2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width=9, fig.height=6, fig.path='Figs/',
+                      echo=TRUE, warning=FALSE, message=FALSE)
+```
+## R Markdown
+
+The Gapminder website contains over 500 data set with information about world's population.
+Data used [here](https://docs.google.com/spreadsheets/d/14G6CjF6NblTGf6kkQclpXp3XZ3D4Nkw1I92DB4fOjXo/pub#) is for Food supply (kilocalories/person and Day). 
+
+Unit:
+Kilocalories available, on average, for each person, each day. 
+ Calories measures the energy content of the food. The required intake per day varies depending on several factors, e.g. activity level, weight, gender and age, but it is normally in the range of 1500-3000 kilocalories per day. One banana contains approximatley 100 kilocalories.
+  
+```{r cars}
+# Load the data, The data was saved as foodsupply
+df <-read.csv('foodSupply.csv', header = T, row.names = 1, check.names = F)
+```
+## Let us see few of the data
+```{r}
+#259 obs. of  47 variables:
+head(df)
+```
+## Reshaping the Data
+ 
+```{r}
+# Using
+library(tidyr)
+library(dplyr)
+# But had to rename the first column
+new_df <- data.frame(name=rownames(df), df, row.names=NULL, check.names = FALSE )
+tidy_df <- tidyr::gather(new_df, "Year", "Food_Supply", 2:47)
+# Filter based on selected countries Italy , Brazil,Japan, Tanzania, Zambia,
+selected_countries <- dplyr::filter(tidy_df, !is.na(Food_Supply), name %in% c('France', 'Brazil','China', 'Zambia'))
+colnames(selected_countries)[1] <- 'country'
+```
+
+## The Line Plot
+
+```{r}
+# From the countries selected let us see the Foood Production Trend
+library(ggplot2)
+# Geom line 
+ggplot(subset(selected_countries, as.numeric(Year)%%2 == 0)) +
+  geom_line(aes(x=Year, y=Food_Supply, colour=country, group=country)) +
+  theme(legend.position="bottom") +
+  labs(x='Year', y='Food Supply')
+```
+We see France with the highest Food Supply and Zambia with lowest food supply.
+Food supply trend is position for all countries except Zambia
+
+## The box Plot 
+ 
+```{r}
+p <- ggplot(selected_countries, aes(x=country, y=Food_Supply, fill = country)) + 
+  geom_boxplot(outlier.colour="red", outlier.shape=8,outlier.size=4) 
+#p + labs(x='Country', y='Food Production')
+p +  theme(legend.position="none",axis.text.x=element_text(angle=45))
+```
+
+
