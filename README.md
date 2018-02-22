@@ -15,13 +15,13 @@ Data Analysis course projects from Udacity' [Data Analyst Nanodegree Program](ht
 
 ## [Data Wrangling:](https://github.com/DenisDPR/Data-Analyst-Nano-Degree/tree/master/Project%202/OpenStreetMapData) Data Wrangling  <br />
 
-## Exploratory Data Analysis: Explore and Summarize Data <br />
+## [Exploratory Data Analysis:Explore and Summarize Data ](https://github.com/DenisDPR/R_Work)<br />
 
-## Inferential Statistics: Test a Perceptual Phenomenon  <br />
-
-## Intro to Machine Learning: Identify Fraud from Enron Email  <br />
+## [Intro to Machine Learning: Identify Fraud from Enron Email](https://github.com/DenisDPR/MACHINE-LEARNING)<br />
 
 ## Data Visualization in Tableau: Make an Effective Visualization <br />
+
+## Inferential Statistics: Test a Perceptual Phenomenon  <br />
 <br />
 
  
