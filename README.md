@@ -19,9 +19,6 @@ Data Analysis course projects from Udacity' [Data Analyst Nanodegree Program](ht
 
 ## [Intro to Machine Learning: Identify Fraud from Enron Email](https://github.com/DenisDPR/MACHINE-LEARNING)<br />
 
-[//]: ## Data Visualization in Tableau: Make an Effective Visualization <br />
 
-[//]: ## Inferential Statistics: Test a Perceptual Phenomenon  <br />
-<br />
 
  
