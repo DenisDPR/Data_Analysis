@@ -32,6 +32,7 @@ df <-read.csv('foodSupply.csv', header = T, row.names = 1, check.names = F)
 ```{r}
 #259 obs. of  47 variables:
 head(df)
+
 ```
 ## Reshaping the Data
  
