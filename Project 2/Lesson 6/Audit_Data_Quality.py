@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
+
 In this problem set you work with cities infobox data, audit it, come up with a
 cleaning idea and then clean it up. In the first exercise we want you to audit
 the datatypes that can be found in some particular fields in the dataset.
@@ -27,6 +28,7 @@ Note that the first three rows (after the header row) in the cities.csv file
 are not actual data points. The contents of these rows should note be included
 when processing data types. Be sure to include functionality in your code to
 skip over or detect these rows.
+
 """
 import codecs
 import csv
